@@ -8,5 +8,5 @@ export default defineConfig({
         sourcemap: true,
         outDir: 'dist',
     },
-    base: '/goit-js-hw-11/',
+    base: '/goit-js-hw-12/',
 });
