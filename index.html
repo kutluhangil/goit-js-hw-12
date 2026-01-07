@@ -1,0 +1,29 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Image Search</title>
+  <link rel="stylesheet" href="./src/css/styles.css" />
+</head>
+
+<body>
+  <section class="search-section">
+    <form class="search-form" id="search-form">
+      <input type="text" name="searchQuery" class="search-input" placeholder="Search images..." autocomplete="off" />
+      <button type="submit" class="search-btn">Search</button>
+    </form>
+  </section>
+
+  <ul class="gallery"></ul>
+
+  <button type="button" class="load-more hidden">Load more</button>
+
+  <div class="loader hidden"></div>
+
+  <script type="module" src="./src/main.js"></script>
+</body>
+
+</html>
